@@ -1,0 +1,73 @@
+/*basic setup*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Navbar section*/
+.hero-section{
+    background-image: url(Hero-bg.png);
+    height: 698px;
+    width:100%;
+    position: relative;
+}
+.hero-section nav h1{
+    color:#4E47FF;
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+}
+.hero-section nav button{
+    background-color: #4E47FF;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    height:48px;
+    width:132px;
+    font-size: 16px;
+    font-weight: 400;
+    border:none;
+    border-radius: 10px;    
+}
+nav{
+    position: absolute;
+    top:0;
+    left:50%;
+    display: flex;
+    transform: translateX(-50%);
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width:80%;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgb(206, 206, 8);
+    color: black;
+    transition: 0.5s;
+}
+/*hero section*/
+.hero-section section h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+    
+}
+.hero-section section{
+    width:900px;
+    height: 235px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 300px 200px;
+}
+.hero-section section button{
+    width:174px;
+    height:48px;
+    background-color: #4E47FF;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin: 36px 12px;
+}
