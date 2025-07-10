@@ -13,7 +13,8 @@
 }
 .hero-section nav h1{
     color:#4E47FF;
-    font-size: 45px;
+    font-size: 38px;
+    font-weight: bold;
     font-family: "Inter", sans-serif;
 }
 .hero-section nav button{
@@ -23,7 +24,7 @@
     height:48px;
     width:132px;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     border:none;
     border-radius: 10px;    
 }
@@ -44,7 +45,7 @@ nav{
     color: black;
     transition: 0.5s;
 }
-/*hero section*/
+/*Banner section*/
 .hero-section section h1{
     font-family: "Raleway", sans-serif;
     font-weight: bold;
@@ -64,10 +65,167 @@ nav{
     height:48px;
     background-color: #4E47FF;
     font-family: "Raleway", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     color: #ffffff;
     border: none;
     border-radius: 10px;
     margin: 36px 12px;
+}
+/*Action Section*/
+.action{
+    height: 328px;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:210px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.action-text{
+    width:500px;
+    height:200px;
+    margin-top: 10px;
+    display: flex;           
+    flex-direction: column; 
+    gap: 20px;     
+}
+.action-text h1{
+    font-size: 42px;
+    font-weight: bold;
+     font-family: "Raleway", sans-serif;
+}
+.action-text p{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    color: rgba(37, 36,50,0.5);
+}
+.action-text button{
+    height: 48px;
+    width:230px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border:none;
+}
+.action-img img{
+    width: 400px;
+    height: 325px;
+    border-radius: 48px;
+}
+/*Productive Users Section*/
+.productive-user{
+    height: 286px;
+    width: 80%;
+    background-color: rgba(78,71,255,0.1);
+    border-radius: 24px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.productive-user-text-1 h1{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+.productive-user-text-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+    padding-top: 40px;
+}
+.productive-text h1{
+    color:#4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+.productive-text p{
+    color:rgba(0,0,0,0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+/*User's FeedBack Section*/
+.user-feedback{
+    height: 342px;
+    width:78%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.user-feedback-text h1{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+.user-feedback-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    padding-top: 50px;
+}
+.card{
+    height:243px;
+    width:340px;
+    border-radius: 14px;
+    padding-top:24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;           
+    flex-direction: column; 
+    gap: 24px;  
+    background-color: whitesmoke;
+}
+.card .fa-star{
+    color: #FFB805;
+}
+.card h1{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.card p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 24px;
+}
+.card-img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+.card-img h3{
+    color: gray;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.card-img p{
+    color: rgb(161, 160, 160);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+.card-img{
+    display: flex;
+    gap:10px;
+    justify-content:left;
+    align-items: center;
+}
+.card .card-text{
+    height: 81px;
+    width:315px;
+}
+.card-img div{
+    padding-top: 10px;
 }
