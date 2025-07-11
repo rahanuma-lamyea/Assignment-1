@@ -229,3 +229,143 @@ nav{
 .card-img div{
     padding-top: 10px;
 }
+/*Ready to Focus Better */
+.focus-better{
+    height: 696px;
+    width: 80%;
+    background-color: whitesmoke;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.focus-better h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    padding-top: 71px;
+}
+.focus-better p{
+    font-size: 20px;
+    color: rgba(0,0,0,0.5);
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.focus-better button{
+    height: 48px;
+    width:195px;
+    color:#ffffff;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border:none;
+    margin-top: 20px;
+    
+}
+.focus-better .focus-better-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.focus-better img{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+    text-align: center;
+    padding-top: 20px;
+}
+/*form section*/
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 632px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.form-section-text{
+    height: 232px;
+    width:528px;
+}
+.form-section-text h1{
+    font-size: 97px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+.form-section-form input[type="text"], .form-section-form input[type="email"], .form-section-form textarea{
+     height: 60px;
+     border-radius: 10px;
+     background-color:whitesmoke;
+     display: block;
+     width: 480px;
+     padding: 10px 20px;
+     margin-bottom: 24px;
+     border: none;
+}
+.form-section-form label{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.form-section-form button{
+    width: 515px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border:none;
+    margin-top: 20px;
+}
+/*footer section*/
+footer{
+    height: 428px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.footer{
+    height: 221px;
+    width:531px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top:100px ;
+}
+.footer-text h1{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bolder;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+.footer-text p{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color:rgb(137,135,161);
+    margin-top: 20px;
+}
+.footer-list ul{
+    list-style: none;
+    color:rgb(137,135,161);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap:25px;
+    margin-top: 20px;
+    
+}
